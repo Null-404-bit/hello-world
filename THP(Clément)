@@ -1,0 +1,47 @@
+<!doctype html> <!-- Définit le type du document, à être interprété par le navigateur.-->
+
+<html lang="fr">  <!-- Indique que la page est en français-->
+
+<head> <!-- Entête-->
+  <meta charset="utf-8"> <!-- Encodage, jeu de caractères à utiliser pour le site-->
+  <title>Titre de la page</title> <!-- Titre-->
+  <link rel="stylesheet" href="stylegoogle.css"> <!-- Définit un lien vers une feuille de style-->
+</head>
+
+<body>
+   <header> 
+   <div class="navtop">
+       <span><p>Gmail Images <font size="8">∴</font></p></span>
+  </div>
+   </header>
+    
+   <section>
+       <div id="conteneur">
+          <div class="element">
+          <img class="logogoogle" src="logo.png"/>
+       
+          <div class="recherche_p">
+
+          <form action="/search" id="searchthis" method="get">
+              <input id="search" name="q" type="text" />
+          </form>
+          <div><input type="submit" value="Recherche Google" />
+          <input type="submit" value="J'ai de la chance" /></div>
+          </div>
+       
+        </div>
+       </div>
+   </section>
+   <footer>
+       <div class="navbottom">
+       <span><p>France</p></span>
+       </div>
+       <div class="navbottom">
+       <span><p>Publicité  Entreprise  À propos   Comment fonctionne la recherche Google ? </p></span>
+       </div>
+   </footer>
+</body>
+    
+
+
+</html>
