@@ -1,0 +1,25 @@
+body
+{
+         margin-top: 5%;
+         margin-left: 24%;
+         margin-right: 24%;
+         font-family: Serif, Sans-serif, Monospace, Cursive;
+         font-size: 1.1em;
+         color: #404040;
+         line-height: 1.8em; 
+}
+
+h1
+{
+     font-size: 2.0em;
+}
+
+h
+{
+     font-size: 1em;
+}
+
+.shududu
+{
+     font-family: Courier New, monospace;
+}
